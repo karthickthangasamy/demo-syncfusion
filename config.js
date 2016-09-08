@@ -517,7 +517,7 @@ System.config({
     }
   },
   "bundles": {
-    "app-build-d27642071a": [
+    "app-build-5aeb367c53": [
       "about/about",
       "about/about.html!github:systemjs/plugin-text@0.0.4",
       "about/ej-bridge-init.html!github:systemjs/plugin-text@0.0.4",

@@ -5,7 +5,7 @@
     if (typeof define === "function" && define.amd) {
       define(["jquery", "./jquery.validate"], factory);
     } else if (typeof module === "object" && module.exports) {
-      module.exports = factory(require("jquery"));
+      module.exports = factory(require('jquery'));
     } else {
       factory(jQuery);
     }
@@ -606,4 +606,4 @@
       return this.optional(element) || /^90[2-5]\d\{2\}-\d{4}$/.test(value);
     }, "Your ZIP-code must be in the range 902xx-xxxx to 905xx-xxxx");
   }));
-})(require("process"));
+})(require('process'));
