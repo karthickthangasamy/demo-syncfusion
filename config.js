@@ -30,10 +30,10 @@ System.config({
     "aurelia-event-aggregator": "npm:aurelia-event-aggregator@1.0.0-rc.1.0.0",
     "aurelia-framework": "npm:aurelia-framework@1.0.0-rc.1.0.0",
     "aurelia-http-client": "npm:aurelia-http-client@1.0.0-rc.1.0.0",
-    "aurelia-loader": "npm:aurelia-loader@1.0.0-rc.1.0.0",
-    "aurelia-logging": "npm:aurelia-logging@1.0.0-rc.1.0.0",
-    "aurelia-metadata": "npm:aurelia-metadata@1.0.0-rc.1.0.0",
-    "aurelia-pal": "npm:aurelia-pal@1.0.0-rc.1.0.0",
+    "aurelia-loader": "npm:aurelia-loader@1.0.0",
+    "aurelia-logging": "npm:aurelia-logging@1.0.0",
+    "aurelia-metadata": "npm:aurelia-metadata@1.0.0",
+    "aurelia-pal": "npm:aurelia-pal@1.0.0",
     "aurelia-polyfills": "npm:aurelia-polyfills@1.0.0-rc.1.0.0",
     "aurelia-syncfusion-bridge": "npm:aurelia-syncfusion-bridge@0.2.1",
     "aurelia-task-queue": "npm:aurelia-task-queue@1.0.0-rc.1.0.0",
@@ -193,17 +193,10 @@ System.config({
       "aurelia-metadata": "npm:aurelia-metadata@1.0.0",
       "aurelia-path": "npm:aurelia-path@1.0.0"
     },
-    "npm:aurelia-loader@1.0.0-rc.1.0.0": {
-      "aurelia-metadata": "npm:aurelia-metadata@1.0.0",
-      "aurelia-path": "npm:aurelia-path@1.0.0"
-    },
     "npm:aurelia-logging-console@1.0.0": {
       "aurelia-logging": "npm:aurelia-logging@1.0.0"
     },
     "npm:aurelia-metadata@1.0.0": {
-      "aurelia-pal": "npm:aurelia-pal@1.0.0"
-    },
-    "npm:aurelia-metadata@1.0.0-rc.1.0.0": {
       "aurelia-pal": "npm:aurelia-pal@1.0.0"
     },
     "npm:aurelia-pal-browser@1.0.0": {
@@ -547,7 +540,7 @@ System.config({
     }
   },
   "bundles": {
-    "app-build-695a1deb78": [
+    "app-build-3fc97f41a5": [
       "about/about",
       "about/about.html!github:systemjs/plugin-text@0.0.4",
       "about/ej-bridge-init.html!github:systemjs/plugin-text@0.0.4",
