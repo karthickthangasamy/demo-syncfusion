@@ -547,7 +547,7 @@ System.config({
     }
   },
   "bundles": {
-    "app-build-695a1deb78": [
+    "app-build-83d9ba7400": [
       "about/about",
       "about/about.html!github:systemjs/plugin-text@0.0.4",
       "about/ej-bridge-init.html!github:systemjs/plugin-text@0.0.4",
@@ -593,6 +593,8 @@ System.config({
       "npm:aurelia-history-browser@1.0.0/aurelia-history-browser",
       "npm:aurelia-history@1.0.0",
       "npm:aurelia-history@1.0.0/aurelia-history",
+      "npm:aurelia-http-client@1.0.0-rc.1.0.0",
+      "npm:aurelia-http-client@1.0.0-rc.1.0.0/aurelia-http-client",
       "npm:aurelia-loader-default@1.0.0",
       "npm:aurelia-loader-default@1.0.0/aurelia-loader-default",
       "npm:aurelia-loader@1.0.0",
